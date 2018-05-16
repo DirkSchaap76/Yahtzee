@@ -4,10 +4,21 @@ import java.util.Random;
 
 public class Die {
 
+	private byte value;
+
 	Random random = new Random();
 
-	void dieBuilder() {
-		new Die();
+	public Die() {
+		value = (byte) (random.nextInt(6) + 1);
+
+	}
+
+	public Die roll() {
+		return new Die();
+	}
+
+	public byte getValue() {
+		return value;
 	}
 
 }
