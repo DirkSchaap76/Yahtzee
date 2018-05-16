@@ -1,5 +1,5 @@
 package program;
 
-public class Dice {
+public class Table {
 
 }
