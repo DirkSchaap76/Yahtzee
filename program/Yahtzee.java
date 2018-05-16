@@ -1,8 +1,6 @@
 package program;
 
-import utilities.Dice;
-
-public class Yahtzee {
+public abstract class Yahtzee {
 
 	public static void main(String[] args) {
 
